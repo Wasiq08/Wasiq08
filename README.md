@@ -2,6 +2,11 @@
 
 <!--
 **Wasiq08/Wasiq08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+function getUsers() {
+  fetch("http://jsonplaceholder.typicode.com/users")
+    .then(res => res.json())
+    .then(data => console.log(data));
+}
 
 Here are some ideas to get you started:
 
@@ -16,8 +21,4 @@ Here are some ideas to get you started:
 -->
 
 
-function getUsers() {
-  fetch("http://jsonplaceholder.typicode.com/users")
-    .then(res => res.json())
-    .then(data => console.log(data));
-}
+
