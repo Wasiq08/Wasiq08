@@ -1,12 +1,9 @@
 ### Hi there 👋
 
+<a href="https://app.daily.dev/DailyDevTips"><img src="devcard.svg" width="400" alt="Wasiq Muhammad Dev Card"/></a>
+
 <!--
 **Wasiq08/Wasiq08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-function getUsers() {
-  fetch("http://jsonplaceholder.typicode.com/users")
-    .then(res => res.json())
-    .then(data => console.log(data));
-}
 
 Here are some ideas to get you started:
 
