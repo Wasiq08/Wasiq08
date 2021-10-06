@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+function getUsers() {
+  fetch("http://jsonplaceholder.typicode.com/users")
+    .then(res => res.json())
+    .then(data => console.log(data));
+}
+
 <!--
 **Wasiq08/Wasiq08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
